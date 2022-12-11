@@ -281,6 +281,21 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "Banking.Cqrs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "MongoDB.Bson": "2.18.0",
+          "MongoDB.Driver": "2.18.0"
+        },
+        "compile": {
+          "bin/placeholder/Banking.Cqrs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banking.Cqrs.Core.dll": {}
+        }
       }
     }
   },
@@ -720,13 +735,16 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Banking.Cqrs.Core/1.0.0": {
+      "type": "project",
+      "path": "../Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+      "msbuildProject": "../Banking.Cqrs.Core/Banking.Cqrs.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 11.1.0",
-      "MongoDB.Bson >= 2.18.0",
-      "MongoDB.Driver >= 2.18.0"
+      "Banking.Cqrs.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -735,11 +753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
-      "projectName": "Banking.Cqrs.Core",
-      "projectPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+      "projectUniqueName": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj",
+      "projectName": "Banking.Account.Command.Domain",
+      "projectPath": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj",
       "packagesPath": "/Users/expresate/.nuget/packages/",
-      "outputPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/",
+      "outputPath": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/expresate/.nuget/NuGet/NuGet.Config"
@@ -754,7 +772,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj": {
+              "projectPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -766,20 +788,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[11.1.0, )"
-          },
-          "MongoDB.Bson": {
-            "target": "Package",
-            "version": "[2.18.0, )"
-          },
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[2.18.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

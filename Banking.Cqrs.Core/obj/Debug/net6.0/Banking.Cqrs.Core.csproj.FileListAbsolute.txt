@@ -1,0 +1,12 @@
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/bin/Debug/net6.0/Banking.Cqrs.Core.deps.json
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/bin/Debug/net6.0/Banking.Cqrs.Core.dll
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/bin/Debug/net6.0/Banking.Cqrs.Core.pdb
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.csproj.AssemblyReference.cache
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.AssemblyInfoInputs.cache
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.AssemblyInfo.cs
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.csproj.CoreCompileInputs.cache
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.dll
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/refint/Banking.Cqrs.Core.dll
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/Banking.Cqrs.Core.pdb
+/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/Debug/net6.0/ref/Banking.Cqrs.Core.dll

@@ -1,6 +1,6 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CQRS.Banking.Cqrs.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BankingAccount.Microservices.Command.Domain.Banking.Account.Command.Domain FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />

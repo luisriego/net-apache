@@ -13,6 +13,9 @@
     <None Remove="Infrastructure\" />
     <None Remove="Messages\" />
     <None Remove="Producers\" />
+    <None Remove="MediatR" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="MongoDB.Bson" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain\" />
@@ -21,5 +24,10 @@
     <Folder Include="Infrastructure\" />
     <Folder Include="Messages\" />
     <Folder Include="Producers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.18.0" />
   </ItemGroup>
 </Project>

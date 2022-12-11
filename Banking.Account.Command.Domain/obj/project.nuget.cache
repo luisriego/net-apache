@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kw+oF8CavD2WJFJXcdJXI31YKraKVWqhzxptY5xrVcNF0/SJBYwbVdK+SDkhr8qjHlgk59+nNvfUSdUR+DAdtA==",
+  "dgSpecHash": "14GxdUrGSbNHOAg99kQiMRT7RV5lKdZ10IespWE0dBHJ2uV4YNHhiJwOzAAJVTUvPAY3CGWxh7bEusuAL+xO3Q==",
   "success": true,
-  "projectFilePath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+  "projectFilePath": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/expresate/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/Users/expresate/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",

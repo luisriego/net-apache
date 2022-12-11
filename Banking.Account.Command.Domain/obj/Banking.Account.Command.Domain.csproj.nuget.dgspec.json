@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj",
+        "projectName": "Banking.Account.Command.Domain",
+        "projectPath": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/Banking.Account.Command.Domain.csproj",
+        "packagesPath": "/Users/expresate/.nuget/packages/",
+        "outputPath": "/Users/expresate/Docker/NetApache/Banking.Account.Command.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/expresate/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj": {
+                "projectPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+        "projectName": "Banking.Cqrs.Core",
+        "projectPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+        "packagesPath": "/Users/expresate/.nuget/packages/",
+        "outputPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/expresate/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
