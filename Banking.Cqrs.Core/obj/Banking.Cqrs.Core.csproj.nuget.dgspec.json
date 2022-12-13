@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj": {}
+    "C:\\DotNet\\net-apache\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj": {}
   },
   "projects": {
-    "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj": {
+    "C:\\DotNet\\net-apache\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
+        "projectUniqueName": "C:\\DotNet\\net-apache\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj",
         "projectName": "Banking.Cqrs.Core",
-        "projectPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/Banking.Cqrs.Core.csproj",
-        "packagesPath": "/Users/expresate/.nuget/packages/",
-        "outputPath": "/Users/expresate/Docker/NetApache/Banking.Cqrs.Core/obj/",
+        "projectPath": "C:\\DotNet\\net-apache\\Banking.Cqrs.Core\\Banking.Cqrs.Core.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet\\net-apache\\Banking.Cqrs.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/expresate/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

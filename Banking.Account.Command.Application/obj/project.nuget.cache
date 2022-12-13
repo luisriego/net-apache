@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Co4BM04/Pc9BueZVCTAvh1mq62F/mAMKGgBRuiorpf/q1wNb+o8yksKPCw0x7kv1hBd/ufifOrJsV1flsV69Q==",
+  "dgSpecHash": "SdhwO2w12JI7BL74azPbQgLeh3VshYoImkHhN/Hw0nIKn+QcigUwsbTJ8qQvtDyfvfydYbY5wH3vV3Xc0X0SKA==",
   "success": true,
-  "projectFilePath": "C:\\DotNet\\net-apache\\Banking.Account.Command.Domain\\Banking.Account.Command.Domain.csproj",
+  "projectFilePath": "C:\\DotNet\\net-apache\\Banking.Account.Command.Application\\Banking.Account.Command.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",

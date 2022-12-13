@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Banking.Cqrs.Core
-build_property.ProjectDir = C:\DotNet\net-apache\Banking.Cqrs.Core\
+build_property.RootNamespace = Banking.Account.Command.Application
+build_property.ProjectDir = C:\DotNet\net-apache\Banking.Account.Command.Application\

@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{9C2F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{746312F6-6550-4001-A703-6EBDAD567DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Cqrs.Core", "Banking.Cqrs.Core\Banking.Cqrs.Core.csproj", "{A9CEC1D5-C9D4-4BE8-B4EB-9E2B25B7EDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Cqrs.Core", "Banking.Cqrs.Core\Banking.Cqrs.Core.csproj", "{A9CEC1D5-C9D4-4BE8-B4EB-9E2B25B7EDEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{929D5861-E379-4BC4-9A66-657A8CD4E4B8}"
 EndProject
@@ -23,15 +23,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8167C6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{40B454F3-D19D-4E87-9567-4C8D951D7DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Command.Domain", "Banking.Account.Command.Domain\Banking.Account.Command.Domain.csproj", "{51D940F4-5D95-4F10-B4A4-597042270909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banking.Account.Command.Domain", "Banking.Account.Command.Domain\Banking.Account.Command.Domain.csproj", "{51D940F4-5D95-4F10-B4A4-597042270909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Command.Application", "Banking.Account.Command.Application\Banking.Account.Command.Application.csproj", "{576465B7-955E-444A-843B-4250A7F1B7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.Account.Command.Infrastructure", "Banking.Account.Command.Infrastructure\Banking.Account.Command.Infrastructure.csproj", "{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A9CEC1D5-C9D4-4BE8-B4EB-9E2B25B7EDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,6 +43,17 @@ Global
 		{51D940F4-5D95-4F10-B4A4-597042270909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51D940F4-5D95-4F10-B4A4-597042270909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51D940F4-5D95-4F10-B4A4-597042270909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576465B7-955E-444A-843B-4250A7F1B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576465B7-955E-444A-843B-4250A7F1B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576465B7-955E-444A-843B-4250A7F1B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576465B7-955E-444A-843B-4250A7F1B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ACA11422-357E-4420-ACAA-3E2A11E0FD29} = {75DC343F-332E-40A7-8A79-70FC305FD8BC}
@@ -53,5 +65,10 @@ Global
 		{8167C606-9B87-4AA2-95F6-F18FE846A980} = {9C2F9127-409C-49CF-8404-CE7973DBCB98}
 		{40B454F3-D19D-4E87-9567-4C8D951D7DA9} = {9C2F9127-409C-49CF-8404-CE7973DBCB98}
 		{51D940F4-5D95-4F10-B4A4-597042270909} = {8167C606-9B87-4AA2-95F6-F18FE846A980}
+		{576465B7-955E-444A-843B-4250A7F1B7A7} = {23B062BF-80D5-4869-8F3E-D1E56DF8D38C}
+		{FE6F46B9-92B3-4D14-A3E5-ADD447D340E7} = {40B454F3-D19D-4E87-9567-4C8D951D7DA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59A8E057-E073-44DB-9EF1-F2A4B130D900}
 	EndGlobalSection
 EndGlobal
